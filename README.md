@@ -15,9 +15,9 @@ GettingAndCleaningData_CourseProject
  1. Download data from site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  2. Downloaded file has folder "UCI HAR Dataset"
  3. Create an R-Script in R-Studio and name it "run_analysis.R"
- 4. Copy the entire script "run_analysis.R" from my repository and paste it in your newly created script. Save it.
- 5. "run_analysis.R" is a function that takes location of folder "UCI HAR Dataset" on your computer as an input parameter and     create working directory.
- 6. Find the path to folder "UCI HAR Dataset" on your computer.
- 7. Run function "run_analysis.R" by passing this path as input parameter to function.
- 8. This function will create file TidyData.txt in the same "UCI HAR Dataset" folder.
- 9. This is the required output file as described in project objective.
+ 4. Copy the entire script "run_analysis.R" from my repository and paste it in your newly created script, save the script
+ 5. Script "run_analysis.R" is a function that takes location of folder "UCI HAR Dataset" on your computer as an input parameter and create working directory
+ 6. Find the path to folder "UCI HAR Dataset" on your computer
+ 7. Run function "run_analysis.R" by passing this path as input parameter to function
+ 8. This function will create file TidyData.txt in the same "UCI HAR Dataset" folder
+ 9. This is the required output file as described in project objective
