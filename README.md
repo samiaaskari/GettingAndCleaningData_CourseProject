@@ -2,7 +2,7 @@ GettingAndCleaningData_CourseProject
 ====================================
 
 
-Project Objective:
+#Project Objective:
 
  1. Merge the training and the test sets to create one data set.
  2. Extract only the measurements on the mean and standard deviation for each measurement. 
@@ -10,7 +10,7 @@ Project Objective:
  4. Appropriately label the data set with descriptive activity names. 
  5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-Steps to Follow:
+#Steps to Follow:
 
  1. Download data from site: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
  2. Downloaded file has folder "UCI HAR Dataset"
