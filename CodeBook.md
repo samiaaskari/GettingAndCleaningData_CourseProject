@@ -64,7 +64,7 @@ The following files are available for the train and test data. Their description
 
 An R script “run_analysis.R” is created to perform work steps as given below:
 
-Work Step1: Merge the training and the test sets to create one data set
+####Work Step1: Merge the training and the test sets to create one data set
 
 1.	Set up work directory
 2.	Read all files pertaining to training data and create train dataset
@@ -72,7 +72,7 @@ Work Step1: Merge the training and the test sets to create one data set
   2. Assign column names to data tables in the step above
   3. Merge newly created datasets to create one dataset and call it Train_Data
 3.	Read all files pertaining to testing data and create test dataset
-a)	Read files X_test.txt, y_test.txt, subject_test.txt and create data tables
-b)	Assign column names to data tables in the step above
-c)	Merge newly created datasets to create one dataset and call it Test_Data
+  1. Read files X_test.txt, y_test.txt, subject_test.txt and create data tables
+  2. Assign column names to data tables in the step above
+  3. Merge newly created datasets to create one dataset and call it Test_Data
 4.	Combine Train_Data and Test_Data using rbind() to create one dataset and call it Final_Data. This dataset has all data from Train and Test datasets
