@@ -132,6 +132,6 @@ run_analysis <- function(workingDirectory){
     tidyData <- merge(tidyData, activityType, by='activityId', all.x=TRUE)
 
   # Export the tidyData set 
-    write.table(tidyData, './TidyData.txt',row.names=TRUE,sep='\t')
+    write.table(tidyData, './TidyData.txt',row.names=FALSE,sep='\t')
 
 } #function end
