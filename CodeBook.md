@@ -58,3 +58,21 @@ The following files are available for the train and test data. Their description
 2. 'train/Inertial Signals/total_acc_x_train.txt': The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. Every row shows a 128 element vector. The same description applies for the 'total_acc_x_train.txt' and 'total_acc_z_train.txt' files for the Y and Z axis.
 3. 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 4. 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
+
+###Code Work Explanation:
+------------------------
+
+An R script “run_analysis.R” is created to perform work steps as given below:
+
+Work Step1: Merge the training and the test sets to create one data set
+
+1.	Set up work directory
+2.	Read all files pertaining to training data and create train dataset
+..1.Read files X_train.txt, y_train.txt, subject_train.txt, features.txt, activity_labels.txt and create data tables
+..2. Assign column names to data tables in the step above
+..3. Merge newly created datasets to create one dataset and call it Train_Data
+3.	Read all files pertaining to testing data and create test dataset
+a)	Read files X_test.txt, y_test.txt, subject_test.txt and create data tables
+b)	Assign column names to data tables in the step above
+c)	Merge newly created datasets to create one dataset and call it Test_Data
+4.	Combine Train_Data and Test_Data using rbind() to create one dataset and call it Final_Data. This dataset has all data from Train and Test datasets
