@@ -76,3 +76,22 @@ An R script “run_analysis.R” is created to perform work steps as given below
   2. Assign column names to data tables in the step above
   3. Merge newly created datasets to create one dataset and call it Test_Data
 4.	Combine Train_Data and Test_Data using rbind() to create one dataset and call it Final_Data. This dataset has all data from Train and Test datasets
+
+####Work Step2: Extract only the measurements on the mean and standard deviation for each measurement
+
+1.	Create a vector colNames to store column names from Final_Data 
+2.	Create another vector using colNames to store data for only ID, Mean and Standard Deviation columns
+	
+####Work Step3: Use descriptive activity names to name the activities in the data set
+
+1.	Merge Final_Data table with data from activity_labels.txt file to get descriptive activity names
+
+####Work Step4: Appropriately label the data set with descriptive activity names
+
+1.	Rename the columns using gsub and replace column names in Final_Data set with new names
+
+####Work Step5: Create a second, independent tidy data set with the average of each variable for each activity and each subject
+
+1.	Create final dataset which contains mean of each variable for each activity and subject
+2.	Write the tidy data to a text file “TidyData.txt”
+
