@@ -63,7 +63,7 @@ The following files are available for the train and test data. Their description
 -----------------------
 
 | Variable      | Description 					                                                        |
-| ------------- |:-----------------------------------------------------------------------------------------------------:|
+| ------------- |:------------------------------------------------------------------------------------------------------|
 | activityId    | Activity label 				 							|
 | subjectId     | Subject identifier				 							|
 | activityType  | Showing activity type from (Walking,Walking_Upstairs, Walking_ Downstairs, Sitting, Standing, Laying) |
