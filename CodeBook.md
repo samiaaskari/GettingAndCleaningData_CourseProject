@@ -106,3 +106,9 @@ An R script “run_analysis.R” is created to perform work steps as given below
 1.	Create final dataset which contains mean of each variable for each activity and subject
 2.	Write the tidy data to a text file “TidyData.txt”
 
+
+###View Output File "TidyData.txt":
+---------------------------------
+
+checkData <- read.table("TidyData.txt", header = TRUE); 
+View(checkData)
